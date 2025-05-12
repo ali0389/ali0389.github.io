@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    }
+    
+    :root{
+        --white: #fafafb;
+        --purple:#be9ff0;
+        --blue-light:#04d4c3;
+        --blue-dark:#2a73c2;
+        --green:#2c7b90;
+    }
+    
+    body{
+        background: linear-gradient(to bottom,var(--purple),var(--blue-light)) ;
+        height: 100vh;
+        font-family: 10;
+    
+    
+    }
+    .container{
+        max-width: 80%;
+        width: 400px; 
+        height: 600px;
+        margin: 0 auto;
+    }
+    .perfil h1{
+        color: var(--purple);
+    }
+    .perfil span{
+        color: var(--white);
+        letter-spacing: 1px;
+    }
+     #fecha{
+        color: var(--white);
+        padding: 50px 0 5px 0px;
+     }
+     .agregar_tarea{
+        background-color: var(--white);
+        border-radius: 15px;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        gap: 70px;
+        padding: 10px;
+        margin: 40px 0;
+     }
+     .agregar_tarea input{
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+        border: none;
+        background-color: var(--white);
+        padding-left: 10px;
+     }
+     .agregar_tarea :-ms-input-placeholder{
+        font-size: 1.1rem;
+        color: var(--purple);
+     }
+     .agregar_tarea i {
+        font-size: 50px;
+        color: var(--purple);
+
+     }
+     .agregar_tarea i:hover{
+        transform: scale(1.1);
+        cursor: pointer;
+     }
